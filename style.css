@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+
+a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #2E2594;
+    position: relative;
+
+}
+
+    a:hover {
+        color: gold;
+    }
+
+    a::after {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 3px;
+        right: 0;
+        bottom: -3px;
+        border-radius: 12px;
+        background-color: gold;
+        transition: all 0.5s ease-in-out;
+    }
+
+    a:hover::after {
+        width: 100%;
+    }
+
+.bx-sun {
+    padding-left: 20px;
+
+    a:hover {
+        color: #ffd700;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* a{
+    color: #2E2594    ;
+    font-size: 18px;
+}
+a:hover{
+    color: gold ;
+}
+
+a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    right: 0;
+    bottom: -3px;
+    border-radius: 12px;
+    background-color: red;
+    transition: all 0.5s ease-in-out;
+}
+
+a:hover::after {
+    width: 100%;
+} */
+
+
+/* a {
+    /* font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #4b5563;
+    position: relative; */
+
+    /* &:hover {
+        color: #ff4500;
+    } */
+/* 
+    &::after {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 3px;
+        right: 0;
+        bottom: -3px;
+        border-radius: 12px;
+        background-color: #ff4500;
+        transition: all 0.5s ease-in-out;
+    }
+
+    &:hover::after {
+        width: 100%;
+    } */
